@@ -1,0 +1,43 @@
+{
+  "author": {
+    "email": "paul@inc.sh",
+    "name": "Paul Anthony Webb"
+  },
+  "dependencies": {},
+  "description": "List of audio extensions",
+  "devDependencies": {
+    "@inc/eslint-config": "^1.1.3",
+    "eslint": "^5.14.1",
+    "husky": "^1.3.1",
+    "npm-run-all": "^4.1.5",
+    "snazzy": "^8.0.0",
+    "standardx": "^3.0.1",
+    "updates": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "extensions.json"
+  ],
+  "homepage": "https://git.inc.sh/NetOperatorWibby/audio-extensions",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format; git add -A :/"
+    }
+  },
+  "license": "BSD-3-Clause",
+  "main": "extensions.json",
+  "name": "audio-extensions",
+  "repository": {
+    "type": "git",
+    "url": "https://git.inc.sh/NetOperatorWibby/audio-extensions"
+  },
+  "scripts": {
+    "format": "eslint '*.js' --fix",
+    "test": "run-s test:*",
+    "test:dependencies": "updates -u ./",
+    "test:lint": "standardx --verbose | snazzy"
+  },
+  "version": "1.0.0"
+}
