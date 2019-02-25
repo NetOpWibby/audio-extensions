@@ -1,0 +1,13 @@
+# ---> Default
+# Files
+.DS_Store
+.env
+*.log
+*.lock
+Thumbs.db
+
+# Directories
+.cache
+.sass-cache
+node_modules
+
