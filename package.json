@@ -18,7 +18,7 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "extensions.json"
+    "extensions.js"
   ],
   "homepage": "https://git.inc.sh/NetOperatorWibby/audio-extensions",
   "husky": {
@@ -27,7 +27,7 @@
     }
   },
   "license": "BSD-3-Clause",
-  "main": "extensions.json",
+  "main": "extensions.js",
   "name": "audio-extensions",
   "repository": {
     "type": "git",

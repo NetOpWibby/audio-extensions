@@ -6,17 +6,23 @@
 
 module.exports = exports = [
   "3gp",
+
   "aac",
   "act",
   "aiff",
   "amr",
   "ast",
   "au",
+
   "bwf",
+
   "dct",
   "dss",
+
   "flac",
+
   "gsm",
+
   "m4a",
   "m4p",
   "mmf",
@@ -24,16 +30,23 @@ module.exports = exports = [
   "mp3",
   "mp4",
   "mpc",
+
   "ogg",
   "oga",
   "opus",
+
   "pac",
+
   "ra",
   "raw",
+
   "s3m",
   "sln",
+
   "tta",
+
   "vox",
+
   "wav",
   "wv"
 ];
